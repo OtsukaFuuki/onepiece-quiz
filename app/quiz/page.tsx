@@ -122,7 +122,7 @@ const QuizApp: React.FC = () => {
                       ]
                       ? "bg-green-200"
                       : "bg-red-200"
-                    : "bg-white hover:bg-gray-100"
+                    : "bg-white"
                 }`}
               >
                 {option}
