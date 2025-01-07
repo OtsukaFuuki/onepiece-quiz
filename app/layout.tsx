@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "OnePieceQuiz",
-  description: "ワンピースのクイズアプリです",
+  title: "OnePieceQuizーapp",
+  description: "ワンピースのクイズアプリです。",
 };
 
 export default function RootLayout({
