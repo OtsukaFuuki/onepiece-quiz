@@ -68,43 +68,43 @@ const QuizApp: React.FC = () => {
   };
 
   return (
-    <div className="p-4 max-w-md mx-auto relative">
-      <div className="absolute top-4 right-4">
-        <button
-          onClick={goToHome} // goToHome を呼び出し
-          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-        >
-          トップへ戻る
-        </button>
+    <div className="p-4 max-w-md mx-auto relative bg-deep-blue text-white">
+      <div className="flex items-center justify-between mb-4">
+        <h1 className="text-3xl font-bold text-gold border-b-2 border-gold">
+          ワンピクイズ
+        </h1>
+        <h2 className="text-lg font-semibold text-sky-blue">
+          問題 {currentQuestionIndex + 1} / {quizData.length}
+        </h2>
       </div>
-      <h1 className="text-2xl font-bold mb-4">ワンピクイズ</h1>
       {isQuizComplete ? (
         <div className="text-center mt-24">
-          <h2 className="text-xl font-semibold mb-4">クイズ終了!!</h2>
-          <p className="mb-4">
+          <h2 className="text-2xl font-semibold text-gold mb-4">
+            クイズ終了!!
+          </h2>
+          <p className="mb-4 text-bright-yellow">
             スコア: {score} / {quizData.length}
           </p>
           <button
-            onClick={goToHome} // クイズ終了時もトップに戻る
-            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            onClick={goToHome}
+            className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
           >
             トップへ戻る
           </button>
         </div>
       ) : (
-        <div>
-          <h2 className="text-lg font-semibold mb-2">
-            問題 {currentQuestionIndex + 1} / {quizData.length}
-          </h2>
-          <p className="mb-4 min-h-[70px]">{currentQuestion.question}</p>
+        <div className="p-4">
+          <p className="mb-4 min-h-[70px] text-white text-lg">
+            {currentQuestion.question}
+          </p>
           {currentQuestion.image && (
-            <div className="mb-4 w-[343px] h-[250px] overflow-hidden">
+            <div className="mb-4 w-[343px] h-[343px] overflow-hidden bg-sand">
               <Image
                 src={currentQuestion.image}
                 alt="Question Image"
-                width={800}
-                height={800}
-                className="object-cover"
+                width={343}
+                height={343}
+                className="object-cover w-full h-full"
               />
             </div>
           )}
@@ -120,9 +120,9 @@ const QuizApp: React.FC = () => {
                       currentQuestion.options[
                         currentQuestion.correctAnswerIndex
                       ]
-                      ? "bg-green-200"
-                      : "bg-red-200"
-                    : "bg-white"
+                      ? "bg-green-500 text-white"
+                      : "bg-red-500 text-white"
+                    : "bg-white text-black hover:bg-gray-100"
                 }`}
               >
                 {option}
@@ -133,11 +133,20 @@ const QuizApp: React.FC = () => {
             <button
               onClick={goToPreviousQuestion}
               disabled={currentQuestionIndex === 0}
-              className="flex-1 py-2 rounded  disabled:opacity-50"
+              className="flex-1 py-2 rounded bg-black text-white disabled:opacity-50"
             >
               ＜ 前へ
             </button>
-            <button onClick={goToNextQuestion} className="flex-1 py-2 rounded ">
+            <button
+              onClick={goToHome}
+              className="px-4 py-2 bg-gold text-black rounded hover:bg-yellow-400"
+            >
+              トップへ戻る
+            </button>
+            <button
+              onClick={goToNextQuestion}
+              className="flex-1 py-2 rounded bg-deep-red text-white"
+            >
               次へ ＞
             </button>
           </div>
@@ -148,7 +157,7 @@ const QuizApp: React.FC = () => {
         <div className="absolute inset-0 flex items-center justify-center">
           <div
             className={`text-6xl font-bold ${
-              isCorrect ? "text-green-500" : "text-red-500"
+              isCorrect ? "text-green-400" : "text-red-400"
             }`}
           >
             {isCorrect ? "〇" : "×"}
