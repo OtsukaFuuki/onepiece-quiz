@@ -42,14 +42,7 @@ const CategorySelection: React.FC = () => {
         {/* カテゴリ選択 */}
         <DropdownList
           label="ワンピースの〜編"
-          options={[
-            "全て",
-            "east-blue",
-            "alabasta",
-            "water-7",
-            "marineford",
-            "wano",
-          ]}
+          options={["全て", "1", "2", "3", "4", "5"]}
           value={selectedArc}
           onChange={(value) => setSelectedArc(value as string)}
         />
