@@ -15,7 +15,7 @@ const QuizApp: React.FC = () => {
   const [isButtonDisabled, setIsButtonDisabled] = useState(false);
   const [isQuizComplete, setIsQuizComplete] = useState(false);
 
-  const router = useRouter(); // useRouter フックを初期化
+  const router = useRouter();
 
   const currentQuestion: QuizQuestion = quizData[currentQuestionIndex];
 
@@ -64,41 +64,47 @@ const QuizApp: React.FC = () => {
   };
 
   const goToHome = () => {
-    router.push("/"); // ホームページ ("/") に遷移
+    router.push("/category"); // ホームページ ("/") に遷移
   };
 
   return (
-    <div className="p-4 max-w-md mx-auto relative bg-deep-blue text-white">
+    <div className="p-4 max-w-md mx-auto relative bg-white text-black">
+      {/* 背景を白、文字を黒に変更 */}
       <div className="flex items-center justify-between mb-4">
-        <h1 className="text-3xl font-bold text-gold border-b-2 border-gold">
+        <h1 className="text-3xl font-bold text-black border-b-2 border-black">
+          {/* 文字色を黒 */}
           ワンピクイズ
         </h1>
-        <h2 className="text-lg font-semibold text-sky-blue">
+        <h2 className="text-lg font-semibold text-black">
+          {/* 文字色を黒 */}
           問題 {currentQuestionIndex + 1} / {quizData.length}
         </h2>
       </div>
       {isQuizComplete ? (
         <div className="text-center mt-24">
-          <h2 className="text-2xl font-semibold text-gold mb-4">
+          <h2 className="text-2xl font-semibold text-black mb-4">
+            {/* 文字色を黒 */}
             クイズ終了!!
           </h2>
-          <p className="mb-4 text-bright-yellow">
+          <p className="mb-4 text-black">
+            {/* 文字色を黒 */}
             スコア: {score} / {quizData.length}
           </p>
           <button
             onClick={goToHome}
-            className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
+            className="px-4 py-2 bg-blue-400 text-white rounded hover:bg-blue-600"
           >
             トップへ戻る
           </button>
         </div>
       ) : (
         <div className="p-4">
-          <p className="mb-4 min-h-[70px] text-white text-lg">
+          <p className="mb-4 min-h-[70px] text-black text-lg">
+            {/* 文字色を黒 */}
             {currentQuestion.question}
           </p>
           {currentQuestion.image && (
-            <div className="mb-4 w-[343px] h-[343px] overflow-hidden bg-sand">
+            <div className="mb-4 w-[343px] h-[343px] overflow-hidden bg-sand border rounded-lg w-full">
               <Image
                 src={currentQuestion.image}
                 alt="Question Image"
@@ -133,26 +139,22 @@ const QuizApp: React.FC = () => {
             <button
               onClick={goToPreviousQuestion}
               disabled={currentQuestionIndex === 0}
-              className="flex-1 py-2 rounded bg-black text-white disabled:opacity-50"
+              className="flex-1 py-2 rounded text-black disabled:opacity-50"
             >
               ＜ 前へ
             </button>
-            <button
-              onClick={goToHome}
-              className="px-4 py-2 bg-gold text-black rounded hover:bg-yellow-400"
-            >
+            <button onClick={goToHome} className="px-4 py-2 text-black rounded">
               トップへ戻る
             </button>
             <button
               onClick={goToNextQuestion}
-              className="flex-1 py-2 rounded bg-deep-red text-white"
+              className="flex-1 py-2 rounded text-black"
             >
               次へ ＞
             </button>
           </div>
         </div>
       )}
-
       {showFeedback && (
         <div className="absolute inset-0 flex items-center justify-center">
           <div
