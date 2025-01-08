@@ -2,7 +2,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { useRouter, useSearchParams } from "next/navigation"; // SearchParams をインポート
+import { useRouter } from "next/navigation"; // useRouter を使用
 import { quizData, QuizQuestion } from "../data/quizData";
 import { shuffleArray } from "../utils/arrayUtils";
 
@@ -20,19 +20,18 @@ const QuizApp: React.FC = () => {
   ); // フィルタリングされた質問リスト
 
   const router = useRouter();
-  const searchParams = useSearchParams(); // クエリパラメータを取得
 
   const currentQuestion: QuizQuestion = filteredQuestions[currentQuestionIndex];
 
   useEffect(() => {
     // クエリパラメータから難易度を取得
+    const searchParams = new URLSearchParams(window.location.search);
     const selectedLevel = searchParams.get("difficulty") || "easy"; // デフォルト値を設定
     const filtered = quizData.filter(
       (question) => question.level === selectedLevel
     );
-
     setFilteredQuestions(filtered);
-  }, [searchParams]);
+  }, []);
 
   useEffect(() => {
     if (filteredQuestions.length > 0) {
@@ -81,7 +80,7 @@ const QuizApp: React.FC = () => {
   };
 
   const goToHome = () => {
-    router.push("/category"); // ホームページ ("/") に遷移
+    router.push("/category"); // ホームページ ("/category") に遷移
   };
 
   return (
