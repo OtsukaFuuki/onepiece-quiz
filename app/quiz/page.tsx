@@ -2,7 +2,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { useRouter } from "next/navigation"; // Router をインポート
+import { useRouter, useSearchParams } from "next/navigation"; // SearchParams をインポート
 import { quizData, QuizQuestion } from "../data/quizData";
 import { shuffleArray } from "../utils/arrayUtils";
 
@@ -15,14 +15,31 @@ const QuizApp: React.FC = () => {
   const [isButtonDisabled, setIsButtonDisabled] = useState(false);
   const [isQuizComplete, setIsQuizComplete] = useState(false);
 
-  const router = useRouter();
+  const [filteredQuestions, setFilteredQuestions] = useState<QuizQuestion[]>(
+    []
+  ); // フィルタリングされた質問リスト
 
-  const currentQuestion: QuizQuestion = quizData[currentQuestionIndex];
+  const router = useRouter();
+  const searchParams = useSearchParams(); // クエリパラメータを取得
+
+  const currentQuestion: QuizQuestion = filteredQuestions[currentQuestionIndex];
 
   useEffect(() => {
-    const options = shuffleArray([...currentQuestion.options]);
-    setShuffledOptions(options);
-  }, [currentQuestionIndex]);
+    // クエリパラメータから難易度を取得
+    const selectedLevel = searchParams.get("difficulty") || "easy"; // デフォルト値を設定
+    const filtered = quizData.filter(
+      (question) => question.level === selectedLevel
+    );
+
+    setFilteredQuestions(filtered);
+  }, [searchParams]);
+
+  useEffect(() => {
+    if (filteredQuestions.length > 0) {
+      const options = shuffleArray([...currentQuestion.options]);
+      setShuffledOptions(options);
+    }
+  }, [currentQuestionIndex, filteredQuestions]);
 
   const handleAnswer = (selectedOption: string) => {
     setIsButtonDisabled(true);
@@ -41,7 +58,7 @@ const QuizApp: React.FC = () => {
       setShowFeedback(false);
       setIsButtonDisabled(false);
 
-      if (currentQuestionIndex + 1 < quizData.length) {
+      if (currentQuestionIndex + 1 < filteredQuestions.length) {
         setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
       } else {
         setIsQuizComplete(true);
@@ -50,7 +67,7 @@ const QuizApp: React.FC = () => {
   };
 
   const goToNextQuestion = () => {
-    if (currentQuestionIndex + 1 < quizData.length) {
+    if (currentQuestionIndex + 1 < filteredQuestions.length) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     } else {
       setIsQuizComplete(true);
@@ -69,26 +86,25 @@ const QuizApp: React.FC = () => {
 
   return (
     <div className="p-4 max-w-md mx-auto relative bg-white text-black">
-      {/* 背景を白、文字を黒に変更 */}
       <div className="flex items-center justify-between mb-4">
         <h1 className="text-3xl font-bold text-black border-b-2 border-black">
-          {/* 文字色を黒 */}
           ワンピクイズ
         </h1>
         <h2 className="text-lg font-semibold text-black">
-          {/* 文字色を黒 */}
-          問題 {currentQuestionIndex + 1} / {quizData.length}
+          問題 {currentQuestionIndex + 1} / {filteredQuestions.length}
         </h2>
       </div>
-      {isQuizComplete ? (
+      {filteredQuestions.length === 0 ? (
+        <p className="text-center text-black">
+          指定された難易度の問題がありません。
+        </p>
+      ) : isQuizComplete ? (
         <div className="text-center mt-24">
           <h2 className="text-2xl font-semibold text-black mb-4">
-            {/* 文字色を黒 */}
             クイズ終了!!
           </h2>
           <p className="mb-4 text-black">
-            {/* 文字色を黒 */}
-            スコア: {score} / {quizData.length}
+            スコア: {score} / {filteredQuestions.length}
           </p>
           <button
             onClick={goToHome}
@@ -100,11 +116,10 @@ const QuizApp: React.FC = () => {
       ) : (
         <div className="p-4">
           <p className="mb-4 min-h-[70px] text-black text-lg">
-            {/* 文字色を黒 */}
             {currentQuestion.question}
           </p>
           {currentQuestion.image && (
-            <div className="mb-4 w-[343px] h-[343px] overflow-hidden bg-sand border rounded-lg w-full">
+            <div className="mb-4 w-[343px] h-[343px] overflow-hidden bg-sand border rounded-lg ">
               <Image
                 src={currentQuestion.image}
                 alt="Question Image"
