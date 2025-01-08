@@ -27,11 +27,11 @@ const CategorySelection: React.FC = () => {
   };
 
   const handleCloseDialog = () => {
-    setIsDialogOpen(false); // ダイアログを閉じる
+    setIsDialogOpen(false);
   };
 
   const goToHome = () => {
-    router.push("/"); // ホームページ ("/") に遷移
+    router.push("/");
   };
 
   return (
@@ -60,19 +60,19 @@ const CategorySelection: React.FC = () => {
           <h2 className="font-semibold">難易度</h2>
           <div className="flex justify-between">
             <button
-              onClick={() => handleDifficultySelect("初級")}
+              onClick={() => handleDifficultySelect("easy")}
               className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
             >
               初級
             </button>
             <button
-              onClick={() => handleDifficultySelect("中級")}
+              onClick={() => handleDifficultySelect("normal")}
               className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
             >
               中級
             </button>
             <button
-              onClick={() => handleDifficultySelect("上級")}
+              onClick={() => handleDifficultySelect("hard")}
               className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
             >
               上級

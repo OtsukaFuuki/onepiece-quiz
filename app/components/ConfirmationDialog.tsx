@@ -15,6 +15,16 @@ const ConfirmationDialog: React.FC<ConfirmationDialogProps> = ({
   onClose,
   onStart,
 }) => {
+  // 難易度のマッピング
+  const difficultyMapping: { [key: string]: string } = {
+    easy: "初級",
+    normal: "中級",
+    hard: "上級",
+  };
+
+  // マッピングされた値を取得
+  const displayDifficulty = difficultyMapping[selectedDifficulty];
+
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-gray-600 bg-opacity-80">
       <div className="bg-white p-6 rounded shadow-lg text-center space-y-4">
@@ -23,7 +33,7 @@ const ConfirmationDialog: React.FC<ConfirmationDialogProps> = ({
         <ul className="text-left">
           <li>カテゴリ: {selectedArc || "未選択"}</li>
           <li>問題数: {selectedQuestionCount}問</li>
-          <li>難易度: {selectedDifficulty}</li>
+          <li>難易度: {displayDifficulty}</li>
         </ul>
         <div className="flex justify-between mt-4">
           <button
