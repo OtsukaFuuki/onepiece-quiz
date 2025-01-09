@@ -35,30 +35,36 @@ const CategorySelection: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
-      <h1 className="text-2xl font-bold mb-6">カテゴリ選択</h1>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4 cateBg15">
+      {/* 2/4/6/12/13/14/15s*/}
+      <h1 className="text-2xl font-bold mb-2">カテゴリ選択</h1>
+      <p className="text-sm mb-4">※今は難易度しか選べません</p>
 
       <div className="w-full max-w-md space-y-4">
-        {/* カテゴリ選択 */}
-        <DropdownList
-          label="ワンピースの〜編"
-          options={["全て", "1", "2", "3", "4", "5"]}
-          value={selectedArc}
-          onChange={(value) => setSelectedArc(value as string)}
-        />
-
-        {/* 問題数選択 */}
-        <DropdownList
-          label="問題数"
-          options={["全て", 10, 15, 20, 25, 30]}
-          value={selectedQuestionCount.toString()} // 数値を文字列に変換
-          onChange={(value) => setSelectedQuestionCount(Number(value))} // 値を数値に変換
-        />
+        <div className="flex items-center justify-between gap-5">
+          {/* カテゴリ選択 */}
+          <div className="flex-1">
+            <DropdownList
+              label="ワンピースの〜編"
+              options={["全て", "1", "2", "3", "4", "5"]}
+              value={selectedArc}
+              onChange={(value) => setSelectedArc(value as string)}
+            />
+          </div>
+          <div className="flex-1">
+            {/* 問題数選択 */}
+            <DropdownList
+              label="問題数"
+              options={["全て", 10, 15, 20, 25, 30]}
+              value={selectedQuestionCount.toString()} // 数値を文字列に変換
+              onChange={(value) => setSelectedQuestionCount(Number(value))} // 値を数値に変換
+            />
+          </div>
+        </div>
 
         {/* 難易度選択 */}
         <div className="space-y-2">
-          <h2 className="font-semibold">難易度</h2>
-          <div className="flex justify-between">
+          <div className="flex flex-col justify-between space-y-2">
             <button
               onClick={() => handleDifficultySelect("easy")}
               className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
@@ -85,9 +91,9 @@ const CategorySelection: React.FC = () => {
       <div className="mt-4">
         <button
           onClick={goToHome}
-          className="px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600"
+          className="text-xs fixed bottom-4 right-4 w-12 h-12 gradientBackground1 text-white rounded-full hover:bg-yellow-600 flex items-center justify-center shadow-lg animate-bounce"
         >
-          トップへ戻る
+          TOPへ
         </button>
       </div>
 
