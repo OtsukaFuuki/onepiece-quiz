@@ -118,12 +118,12 @@ const QuizApp: React.FC = () => {
             {currentQuestion.question}
           </p>
           {currentQuestion.image && (
-            <div className="mb-4 w-[343px] h-[343px] overflow-hidden bg-sand border rounded-lg ">
+            <div className="mb-4 w-full h-[343px] overflow-hidden bg-sand border rounded-lg ">
               <Image
                 src={currentQuestion.image}
                 alt="Question Image"
-                width={343}
-                height={343}
+                width={800}
+                height={800}
                 className="object-cover w-full h-full"
               />
             </div>
