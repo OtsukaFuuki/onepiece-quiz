@@ -86,9 +86,6 @@ const QuizApp: React.FC = () => {
   return (
     <div className="p-4 max-w-md mx-auto relative bg-white text-black">
       <div className="flex items-center justify-between mb-4">
-        <h1 className="text-3xl font-bold text-black border-b-2 border-black">
-          ワンピクイズ
-        </h1>
         <h2 className="text-lg font-semibold text-black">
           問題 {currentQuestionIndex + 1} / {filteredQuestions.length}
         </h2>
