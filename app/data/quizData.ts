@@ -4,7 +4,7 @@ export type QuizQuestion = {
   image?: string;
   options: string[];
   correctAnswerIndex: number;
-  category?: string; // ここを追加
+  category?: string;
   level: string;
 };
 export const quizData: QuizQuestion[] = [
