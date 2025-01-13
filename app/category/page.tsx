@@ -35,17 +35,18 @@ const CategorySelection: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-100 p-4 cateBg15">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4 cateBg12">
       {/* 2/4/6/12/13/14/15s*/}
-      <h1 className="text-2xl font-bold mb-2">カテゴリ選択</h1>
-      <p className="text-sm mb-4">※今は難易度しか選べません</p>
+      {/* <h1 className="text-2xl font-bold mb-2">カテゴリ選択</h1> */}
+      {/* <p className="text-sm mb-4">※今は難易度しか選べません</p> */}
 
-      <div className="w-full max-w-md space-y-4">
+      <div className="w-full max-w-md space-y-4 mt-20">
         <div className="flex items-center justify-between gap-5">
           {/* カテゴリ選択 */}
           <div className="flex-1">
             <DropdownList
-              label="ワンピースの〜編"
+              // label="ワンピースの〜編"
+              label=""
               options={["全て", "1", "2", "3", "4", "5"]}
               value={selectedArc}
               onChange={(value) => setSelectedArc(value as string)}
@@ -54,7 +55,8 @@ const CategorySelection: React.FC = () => {
           <div className="flex-1">
             {/* 問題数選択 */}
             <DropdownList
-              label="問題数"
+              // label="問題数"
+              label=""
               options={["全て", 10, 15, 20, 25, 30]}
               value={selectedQuestionCount.toString()} // 数値を文字列に変換
               onChange={(value) => setSelectedQuestionCount(Number(value))} // 値を数値に変換

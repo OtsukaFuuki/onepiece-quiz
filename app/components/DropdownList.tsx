@@ -15,7 +15,7 @@ const DropdownList: React.FC<DropdownListProps> = ({
 }) => {
   return (
     <div>
-      <label className="block mb-2 font-semibold">{label}</label>
+      <label className="block mb-2 text-xs">{label}</label>
       <select
         value={value}
         onChange={(e) => onChange(e.target.value)}
