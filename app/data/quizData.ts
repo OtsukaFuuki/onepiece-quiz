@@ -361,7 +361,12 @@ export const quizData: QuizQuestion[] = [
     id: 52,
     question: "キングの異名は？",
     image: "/image/quiz/52.jpg",
-    options: ["火災のキング", "嵐のキング", "地震のキング", "津波のキング"],
+    options: [
+      "かさいのキング",
+      "やさいのキング",
+      "やくさいのキング",
+      "そくさいのキング",
+    ],
     correctAnswerIndex: 0,
     level: "easy",
   },
