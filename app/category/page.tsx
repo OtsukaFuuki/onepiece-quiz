@@ -35,7 +35,7 @@ const CategorySelection: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4 cateBg12">
+    <div className="flex flex-col items-center justify-center h-screen bg-gray-100 p-4 cateBg12 overflow-hidden">
       {/* 2/4/6/12/13/14/15s*/}
       {/* <h1 className="text-2xl font-bold mb-2">カテゴリ選択</h1> */}
       {/* <p className="text-sm mb-4">※今は難易度しか選べません</p> */}
