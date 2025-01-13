@@ -84,7 +84,7 @@ const QuizApp: React.FC = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto relative bg-white text-black p-8 ">
+    <div className="max-w-md mx-auto relative bg-white text-black px-4 py-2">
       <h2 className="text-sm font-semibold text-black flex justify-end mb-4">
         問題 {currentQuestionIndex + 1} / {filteredQuestions.length}
       </h2>
@@ -109,11 +109,11 @@ const QuizApp: React.FC = () => {
         </div>
       ) : (
         <div className="">
-          <p className="mb-4 h-[70px] text-black text-lg  overflow-y-auto">
+          <p className="mb-4 h-[60px] text-black text-base overflow-y-auto">
             {currentQuestion.question}
           </p>
           {currentQuestion.image && (
-            <div className="mb-4 w-full h-[343px] overflow-hidden bg-sand border rounded-lg ">
+            <div className="mb-4 w-full h-[270px] overflow-hidden bg-sand border rounded-lg ">
               <Image
                 src={currentQuestion.image}
                 alt="Question Image"
@@ -129,7 +129,7 @@ const QuizApp: React.FC = () => {
                 key={index}
                 onClick={() => handleAnswer(option)}
                 disabled={isButtonDisabled}
-                className={`w-full py-2 px-4 border rounded ${
+                className={`w-full py-2 px-4 border rounded text-sm ${
                   isButtonDisabled
                     ? option ===
                       currentQuestion.options[
