@@ -84,17 +84,12 @@ const QuizApp: React.FC = () => {
   };
 
   return (
-    <div className="p-4 max-w-md mx-auto relative bg-white text-black">
-      <div className="flex items-center justify-between mb-4">
-        <h1 className="text-3xl font-bold text-black border-b-2 border-black">
-          ワンピクイズ
-        </h1>
-        <h2 className="text-lg font-semibold text-black">
-          問題 {currentQuestionIndex + 1} / {filteredQuestions.length}
-        </h2>
-      </div>
+    <div className="max-w-md mx-auto relative bg-white text-black p-8 ">
+      <h2 className="text-sm font-semibold text-black flex justify-end mb-4">
+        問題 {currentQuestionIndex + 1} / {filteredQuestions.length}
+      </h2>
       {filteredQuestions.length === 0 ? (
-        <p className="text-center text-black">
+        <p className="mt-9 flex items-center justify-center text-black">
           指定された難易度の問題がありません。
         </p>
       ) : isQuizComplete ? (
@@ -113,8 +108,8 @@ const QuizApp: React.FC = () => {
           </button>
         </div>
       ) : (
-        <div className="p-4">
-          <p className="mb-4 min-h-[70px] text-black text-lg">
+        <div className="">
+          <p className="mb-4 h-[70px] text-black text-lg  overflow-y-auto">
             {currentQuestion.question}
           </p>
           {currentQuestion.image && (
