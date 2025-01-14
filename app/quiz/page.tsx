@@ -85,12 +85,12 @@ const QuizApp: React.FC = () => {
 
   return (
     <div className="max-w-md mx-auto relative bg-white text-black px-4 py-2">
-      <div className="flex items-center justify-between">
+      <div className="flex items-start justify-between">
         <Image
           src={"/image/noimage/hat01.png"}
           alt="麦わら帽子"
-          width={40}
-          height={40}
+          width={20}
+          height={20}
         />
         <h2 className="text-sm font-semibold text-black  mb-4">
           問題 {currentQuestionIndex + 1} / {filteredQuestions.length}
