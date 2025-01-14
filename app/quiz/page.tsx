@@ -85,9 +85,17 @@ const QuizApp: React.FC = () => {
 
   return (
     <div className="max-w-md mx-auto relative bg-white text-black px-4 py-2">
-      <h2 className="text-sm font-semibold text-black flex justify-end mb-4">
-        問題 {currentQuestionIndex + 1} / {filteredQuestions.length}
-      </h2>
+      <div className="flex items-center justify-between">
+        <Image
+          src={"/image/noimage/hat01.png"}
+          alt="麦わら帽子"
+          width={40}
+          height={40}
+        />
+        <h2 className="text-sm font-semibold text-black  mb-4">
+          問題 {currentQuestionIndex + 1} / {filteredQuestions.length}
+        </h2>
+      </div>
       {filteredQuestions.length === 0 ? (
         <p className="mt-9 flex items-center justify-center text-black">
           指定された難易度の問題がありません。
