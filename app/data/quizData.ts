@@ -417,7 +417,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 57,
     question: "サボの実の弟の名前は？",
-    image: "/image/quiz/57.jpeg",
+    image: "/image/quiz/57.jpqg",
     options: ["ステリー", "ヘンリー", "スパンダム", "ルフィー"],
     correctAnswerIndex: 0,
     category: "1",
@@ -426,7 +426,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 58,
     question: "黒髭の本名は？",
-    image: "/image/quiz/58.jpeg",
+    image: "/image/quiz/58.jpg",
     options: [
       "マーシャル・D・ティーチ",
       "エドワード・D・ティーチ",
@@ -441,7 +441,7 @@ export const quizData: QuizQuestion[] = [
     id: 59,
     question:
       "海上レストランバラティエのねじり鉢巻きをした坊主頭の巨漢コックの名前は？",
-    image: "/image/quiz/59.jpeg",
+    image: "/image/quiz/59.jpg",
     options: ["パティ", "ゼフ", "カルネ", "クリーク"],
     correctAnswerIndex: 0,
     category: "1",
@@ -450,7 +450,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 60,
     question: "マキノさんの酒場の名前は？",
-    image: "/image/quiz/60.jpeg",
+    image: "/image/quiz/60.jpg",
     options: ["PARTYS BAR", "MAKINOS BAR", "FUUSYA BAR", "FUCKING GOA"],
     correctAnswerIndex: 0,
     category: "1",
@@ -459,7 +459,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 61,
     question: "赤髪海賊団の狙撃の名手といえば？",
-    image: "/image/quiz/61.jpeg",
+    image: "/image/quiz/61.jpg",
     options: ["ヤソップ", "ウソップ", "イソップ", "ヤナップ"],
     correctAnswerIndex: 0,
     category: "1",
@@ -468,7 +468,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 62,
     question: "クロネコ海賊団初代船長、キャプテン・クロの武器の名前は？",
-    image: "/image/quiz/62.jpeg",
+    image: "/image/quiz/62.jpg",
     options: ["猫の手", "ネコネコの実", "シザーハンズ", "シザーキャット"],
     correctAnswerIndex: 0,
     category: "1",
@@ -477,7 +477,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 63,
     question: "赤髪海賊団ラッキールウの服の模様は？",
-    image: "/image/quiz/63.jpeg",
+    image: "/image/quiz/63.jpg",
     options: ["縦縞", "横縞", "雷紋", "はてなマーク"],
     correctAnswerIndex: 0,
     category: "1",
@@ -486,7 +486,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 64,
     question: "ウソップの出身村は？",
-    image: "/image/quiz/64.jpeg",
+    image: "/image/quiz/64.webp",
     options: ["シロップ村", "ゲッコー村", "フーシャ村", "ココヤシ村"],
     correctAnswerIndex: 0,
     category: "1",
@@ -495,7 +495,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 65,
     question: "ウソップとカクの鼻どっちが長い？",
-    image: "/image/quiz/65.jpeg",
+    image: "/image/quiz/65.png",
     options: ["ウソップ", "カク", "同じ", "公表されていない"],
     correctAnswerIndex: 0,
     category: "1",
@@ -504,7 +504,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 66,
     question: "マキマの酒場でシャンクスに酒をかけた山賊の名前は？",
-    image: "/image/quiz/66.jpeg",
+    image: "/image/quiz/66.jpg",
     options: ["ヒグマ", "ダダン", "ドグマ", "ヒグロ"],
     correctAnswerIndex: 0,
     category: "1",
@@ -513,7 +513,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 67,
     question: "フーシャ村の村長の名前は？",
-    image: "/image/quiz/67.jpeg",
+    image: "/image/quiz/67.jpg",
     options: ["ウープ・スラップ", "クロマーリモ", "ゲンゾウ", "モーニン"],
     correctAnswerIndex: 0,
     category: "1",
@@ -522,7 +522,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 68,
     question: "ナミのカップ数は？",
-    image: "/image/quiz/68.jpeg",
+    image: "/image/quiz/68.jpg",
     options: ["J", "F", "G", "H"],
     correctAnswerIndex: 0,
     category: "1",
@@ -531,7 +531,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 69,
     question: "ルフィーたちが最初に乗る船の名前は？",
-    image: "/image/quiz/69.jpeg",
+    image: "/image/quiz/69.jpg",
     options: [
       "ゴーイングメリー号",
       "サウザンドサニー号",
@@ -545,7 +545,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 70,
     question: "イガラムの巻き髪の数は？",
-    image: "/image/quiz/70.jpeg",
+    image: "/image/quiz/70.jpg",
     options: ["6", "4", "8", "10"],
     correctAnswerIndex: 0,
     category: "1",
@@ -554,7 +554,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 71,
     question: "ペルのトリトリの実のモデルは？",
-    image: "/image/quiz/71.jpeg",
+    image: "/image/quiz/71.jpg",
     options: ["隼", "鷲", "雀", "鴉"],
     correctAnswerIndex: 0,
     category: "1",
@@ -563,7 +563,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 72,
     question: "超カルガモ部隊隊長は？",
-    image: "/image/quiz/72.jpeg",
+    image: "/image/quiz/72.jpg",
     options: ["カルー", "バーボンjr", "イワンX", "ストンプ"],
     correctAnswerIndex: 0,
     category: "1",
@@ -572,7 +572,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 73,
     question: "アイスバーグのペットのねずみの名前は？",
-    image: "/image/quiz/73.jpeg",
+    image: "/image/quiz/73.jpg",
     options: ["ティラノサウルス", "アンモナイト", "プテラノドン", "ネッシー"],
     correctAnswerIndex: 0,
     category: "1",
@@ -581,7 +581,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 74,
     question: "白髭海賊団船長白髭の本名は？",
-    image: "/image/quiz/74.jpeg",
+    image: "/image/quiz/74.jpg",
     options: [
       "エドワード・ニューゲート",
       "エドワード・クリーク",
@@ -595,7 +595,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 75,
     question: "ルフィが最初に会得した技は？",
-    image: "/image/quiz/75.jpeg",
+    image: "/image/quiz/75.jpg",
     options: [
       "ゴムゴムのピストル",
       "ゴムゴムのロケット",
@@ -609,7 +609,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 76,
     question: "ルフィの父親の名前は？",
-    image: "/image/quiz/76.jpeg",
+    image: "/image/quiz/76.jpg",
     options: [
       "モンキー・D・ドラゴン",
       "モンキー・D・ガープ",
@@ -623,7 +623,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 77,
     question: "ナミの育ての親の名前は？",
-    image: "/image/quiz/77.jpeg",
+    image: "/image/quiz/77.jpg",
     options: ["ベルメール", "ノジコ", "カリファ", "マキノ"],
     correctAnswerIndex: 0,
     category: "1",
@@ -632,7 +632,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 78,
     question: "ココヤシ村の駐在さんの名前は？",
-    image: "/image/quiz/78.jpeg",
+    image: "/image/quiz/78.jpg",
     options: ["ゲンゾウ", "ゴロウ", "ゲンゴロウ", "シゲゾウ"],
     correctAnswerIndex: 0,
     category: "1",
@@ -641,7 +641,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 79,
     question: "バロックワークスMr.4の名前は？",
-    image: "/image/quiz/79.jpeg",
+    image: "/image/quiz/79.jpg",
     options: ["ベーブ", "ラッスー", "ジェム", "ドロフィー"],
     correctAnswerIndex: 0,
     category: "1",
@@ -650,11 +650,11 @@ export const quizData: QuizQuestion[] = [
   {
     id: 80,
     question: "ゴア王国の貴族、アッホ・デスネンの娘の名前は？",
-    image: "/image/quiz/80.jpeg",
+    image: "/image/quiz/80.jpg",
     options: [
       "アッホ・ヅラコ",
-      "アッホ・キモコ",
-      "アッホ・キショミ",
+      "アッホ・ヅラミ",
+      "アッホ・バイス",
       "アッホ・ヒンニュ",
     ],
     correctAnswerIndex: 0,
@@ -664,7 +664,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 81,
     question: "アブサロムは部下になんと呼ばれている？",
-    image: "/image/quiz/81.jpeg",
+    image: "/image/quiz/81.jpg",
     options: ["エロサロム", "クソサロム", "アホサロム", "アゴサロム"],
     correctAnswerIndex: 0,
     category: "1",
@@ -673,7 +673,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 82,
     question: "チョッパーが食べた悪魔の実は？",
-    image: "/image/quiz/82.jpeg",
+    image: "/image/quiz/82.jpg",
     options: ["ヒトヒトの実", "シカシカの実", "トシトシの実", "ヤクヤクの実"],
     correctAnswerIndex: 0,
     category: "1",
@@ -682,8 +682,8 @@ export const quizData: QuizQuestion[] = [
   {
     id: 83,
     question: "ルフィーに帽子を預けた人は？",
-    image: "/image/quiz/83.jpeg",
-    options: ["シャンクス", "ロジャー", "エース", "ガープ"],
+    image: "/image/quiz/83.jpg",
+    options: ["シャンクス", "ロジャー", "イム様", "ガープ"],
     correctAnswerIndex: 0,
     category: "1",
     level: "easy",
@@ -691,7 +691,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 84,
     question: "トムさんは何の魚人？",
-    image: "/image/quiz/84.jpeg",
+    image: "/image/quiz/84.jpg",
     options: ["コンゴウフグ", "オオトラフグ", "ショウサイフグ", "コモンフグ"],
     correctAnswerIndex: 0,
     category: "1",
@@ -700,7 +700,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 85,
     question: "ルフィが麦わら帽子を託されたのは何歳のとき？",
-    image: "/image/quiz/85.jpeg",
+    image: "/image/quiz/85.webp",
     options: ["7歳", "6歳", "8歳", "10歳"],
     correctAnswerIndex: 0,
     category: "1",
@@ -709,7 +709,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 86,
     question: "ゾロが使用する三本の刀のうち、最も長く使っているのは？",
-    image: "/image/quiz/86.jpeg",
+    image: "/image/quiz/86.jpg",
     options: ["和道一文字", "秋水", "三代鬼徹", "雪走"],
     correctAnswerIndex: 0,
     category: "1",
@@ -718,7 +718,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 87,
     question: "サンジが働いていた海上レストランの名前は？",
-    image: "/image/quiz/87.jpeg",
+    image: "/image/quiz/87.jpg",
     options: ["バラティエ", "オールブルー", "オベール", "サヴォワ"],
     correctAnswerIndex: 0,
     category: "1",
@@ -727,7 +727,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 88,
     question: "ナミが最初に麦わらの一味の仲間になった理由は？",
-    image: "/image/quiz/88.jpeg",
+    image: "/image/quiz/88.jpg",
     options: [
       "アーロンから村を守るため",
       "航海士として雇われた",
@@ -741,7 +741,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 89,
     question: "チョッパーの好きな食べ物は？",
-    image: "/image/quiz/89.jpeg",
+    image: "/image/quiz/89.jpg",
     options: ["綿あめ", "チョコレート", "リンゴ", "肉"],
     correctAnswerIndex: 0,
     category: "1",
@@ -750,7 +750,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 90,
     question: "ロビンが最初に登場したときの肩書きは？",
-    image: "/image/quiz/90.jpeg",
+    image: "/image/quiz/90.jpg",
     options: ["バロックワークス副社長", "考古学者", "歴史学者", "革命軍の一員"],
     correctAnswerIndex: 0,
     category: "1",
@@ -759,35 +759,35 @@ export const quizData: QuizQuestion[] = [
   {
     id: 91,
     question: "フランキーの夢は何？",
-    image: "/image/quiz/91.jpeg",
+    image: "/image/quiz/91.jpg",
     options: [
-      "世界中を旅できる船を作る",
-      "最強の武器を作る",
-      "海賊王になる",
-      "自分の島を持つ",
+      "どんな海でも乗り越えていく『夢の船』を作り上げること",
+      "どんな荒波も切り裂いて進む『希望の船』を築き上げること",
+      "どんな深海でも探究する『知恵の船』を作り上げること",
+      "どんな海原でも越えていける『理想の船』を作り上げること",
     ],
     correctAnswerIndex: 0,
     category: "1",
     level: "easy",
   },
-  {
-    id: 92,
-    question: "ブルックが「仲間にしてくれたらこれをあげる」と言ったものは？",
-    image: "/image/quiz/92.jpeg",
-    options: ["ビンクスの酒の楽譜", "ログポース", "黄金", "音楽の才能"],
-    correctAnswerIndex: 0,
-    category: "1",
-    level: "normal",
-  },
+  // {
+  //   id: 92,
+  //   question: "ブルックが「仲間にしてくれたらこれをあげる」と言ったものは？",
+  //   image: "/image/quiz/92.jpg",
+  //   options: ["ビンクスの酒の楽譜", "ログポース", "黄金", "音楽の才能"],
+  //   correctAnswerIndex: 0,
+  //   category: "1",
+  //   level: "normal",
+  // },
   {
     id: 93,
-    question: "ウソップが初めてついた嘘は？",
-    image: "/image/quiz/93.jpeg",
+    question: "ウソップが漫画で初めてついた嘘の内容は？",
+    image: "/image/quiz/93.jpg",
     options: [
-      "海賊が来たぞ！",
-      "おれは世界一の狙撃手だ！",
-      "村を守る！",
-      "宝が見つかったぞ！",
+      "みんな大変だーっ!!!海賊が攻めてきたぞーっ!!!",
+      "おれが5歳の時　南海に住む巨大な金魚と戦った時の話だ",
+      "この村を攻めようと考えているのならやめておけ!！このおれの8千万の部下共が黙っちゃいないからだ!！",
+      "いつものウソに決まってんだろ!!あの執事の野郎ムカついてたんで海賊にしたててやろうと思ったんだ!!",
     ],
     correctAnswerIndex: 0,
     category: "1",
@@ -796,7 +796,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 94,
     question: "ルフィの最初の懸賞金はいくらだった？",
-    image: "/image/quiz/94.jpeg",
+    image: "/image/quiz/94.jpg",
     options: ["3000万ベリー", "1億ベリー", "5000万ベリー", "7000万ベリー"],
     correctAnswerIndex: 0,
     category: "1",
@@ -805,7 +805,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 95,
     question: "ゾロの最初の懸賞金はいくらだった？",
-    image: "/image/quiz/95.jpeg",
+    image: "/image/quiz/95.jpg",
     options: ["6000万ベリー", "3000万ベリー", "1億ベリー", "5000万ベリー"],
     correctAnswerIndex: 0,
     category: "1",
@@ -814,7 +814,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 96,
     question: "ルフィの祖父ガープの愛称は？",
-    image: "/image/quiz/96.jpeg",
+    image: "/image/quiz/96.jpg",
     options: ["海軍の英雄", "青キジ", "赤犬", "戦闘モンク"],
     correctAnswerIndex: 0,
     category: "1",
@@ -823,7 +823,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 97,
     question: "エースの母親の名前は？",
-    image: "/image/quiz/97.jpeg",
+    image: "/image/quiz/97.jpg",
     options: [
       "ポートガス・D・ルージュ",
       "ボア・ハンコック",
@@ -837,39 +837,39 @@ export const quizData: QuizQuestion[] = [
   {
     id: 98,
     question: "シャンクスが所属していた海賊団は？",
-    image: "/image/quiz/98.jpeg",
-    options: ["ロジャー海賊団", "赤髪海賊団", "白ひげ海賊団", "百獣海賊団"],
+    image: "/image/quiz/98.png",
+    options: ["ロジャー海賊団", "ロックス海賊団", "白ひげ海賊団", "百獣海賊団"],
     correctAnswerIndex: 0,
     category: "1",
     level: "normal",
   },
-  {
-    id: 99,
-    question: "ルフィの母親に関して明らかにされていることは？",
-    image: "/image/quiz/99.jpeg",
-    options: [
-      "何も明らかにされていない",
-      "ドラゴンの部下",
-      "革命軍の一員",
-      "Dの血族",
-    ],
-    correctAnswerIndex: 0,
-    category: "1",
-    level: "hard",
-  },
-  {
-    id: 100,
-    question: "世界政府直属の特殊機関の名前は？",
-    image: "/image/quiz/100.jpeg",
-    options: ["CP9", "CP7", "CP6", "CP5"],
-    correctAnswerIndex: 0,
-    category: "1",
-    level: "normal",
-  },
+  // {
+  //   id: 99,
+  //   question: "ルフィの母親に関して明らかにされていることは？",
+  //   image: "/image/quiz/99.jpg",
+  //   options: [
+  //     "何も明らかにされていない",
+  //     "ドラゴンの部下",
+  //     "革命軍の一員",
+  //     "Dの血族",
+  //   ],
+  //   correctAnswerIndex: 0,
+  //   category: "1",
+  //   level: "hard",
+  // },
+  // {
+  //   id: 100,
+  //   question: "世界政府直属の特殊機関の名前は？",
+  //   image: "/image/quiz/100.jpg",
+  //   options: ["CP9", "CP7", "CP6", "CP5"],
+  //   correctAnswerIndex: 0,
+  //   category: "1",
+  //   level: "normal",
+  // },
   {
     id: 101,
     question: "エースの義兄弟であるサボの武器は？",
-    image: "/image/quiz/101.jpeg",
+    image: "/image/quiz/101.jpg",
     options: ["鉄パイプ", "棒", "剣", "槍"],
     correctAnswerIndex: 0,
     category: "1",
@@ -878,7 +878,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 102,
     question: "四皇カイドウが最初に登場した時の状況は？",
-    image: "/image/quiz/102.jpeg",
+    image: "/image/quiz/102.webp",
     options: [
       "空島から飛び降りた",
       "ビッグマムとの戦い",
@@ -892,7 +892,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 103,
     question: "黒ひげ海賊団の初代船医の名前は？",
-    image: "/image/quiz/103.jpeg",
+    image: "/image/quiz/103.jpg",
     options: ["ドクQ", "ラフィット", "ヴァン・オーガー", "バーガス"],
     correctAnswerIndex: 0,
     category: "1",
@@ -902,7 +902,7 @@ export const quizData: QuizQuestion[] = [
     id: 104,
     question:
       "マリージョアに保管されている巨大な麦わら帽子が初めて登場したのは何話？",
-    image: "/image/quiz/104.jpeg",
+    image: "/image/quiz/104.jpg",
     options: ["907話", "890話", "950話", "850話"],
     correctAnswerIndex: 0,
     category: "1",
@@ -911,7 +911,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 105,
     question: "ロビンが幼少期に住んでいたオハラの考古学者の長の名前は？",
-    image: "/image/quiz/105.jpeg",
+    image: "/image/quiz/105.jpg",
     options: ["クローバー博士", "サウロ", "オルビア", "ドレーク"],
     correctAnswerIndex: 0,
     category: "1",
@@ -920,7 +920,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 106,
     question: "ビッグマム海賊団のスイート3将星に含まれないのは誰？",
-    image: "/image/quiz/106.jpeg",
+    image: "/image/quiz/106.jpg",
     options: ["ペロスペロー", "カタクリ", "スムージー", "クラッカー"],
     correctAnswerIndex: 0,
     category: "1",
@@ -929,7 +929,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 107,
     question: "ワノ国編でゾロが手にした名刀の名前は？",
-    image: "/image/quiz/107.jpeg",
+    image: "/image/quiz/107.jpg",
     options: ["閻魔", "秋水", "雪走", "和道一文字"],
     correctAnswerIndex: 0,
     category: "1",
@@ -938,7 +938,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 108,
     question: "ラフテルの正確な場所を示すために必要なアイテムは？",
-    image: "/image/quiz/108.jpeg",
+    image: "/image/quiz/108.jpg",
     options: [
       "ロードポーネグリフ",
       "ログポース",
@@ -953,7 +953,7 @@ export const quizData: QuizQuestion[] = [
     id: 109,
     question:
       "空島編で登場した「ゴッド・エネル」の部下である4人の神官に含まれないのは？",
-    image: "/image/quiz/109.jpeg",
+    image: "/image/quiz/109.jpg",
     options: ["ワイパー", "オーム", "シュラ", "ゲダツ"],
     correctAnswerIndex: 0,
     category: "1",
@@ -962,7 +962,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 110,
     question: "ルフィがドレスローザ編で使用したギア4の正式名称は？",
-    image: "/image/quiz/110.jpeg",
+    image: "/image/quiz/110.jpg",
     options: ["バウンドマン", "スネイクマン", "タンクマン", "ギガントマン"],
     correctAnswerIndex: 0,
     category: "1",
@@ -971,7 +971,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 111,
     question: "ゴール・D・ロジャーの船の船医は誰？",
-    image: "/image/quiz/111.jpeg",
+    image: "/image/quiz/111.jpg",
     options: ["クロッカス", "レイリー", "シャンクス", "バギー"],
     correctAnswerIndex: 0,
     category: "1",
@@ -980,7 +980,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 112,
     question: "シキ（金獅子）が初めて登場した映画のタイトルは？",
-    image: "/image/quiz/112.jpeg",
+    image: "/image/quiz/112.jpg",
     options: [
       "ONE PIECE FILM STRONG WORLD",
       "ONE PIECE FILM GOLD",
@@ -994,7 +994,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 113,
     question: "革命軍の幹部、サボのコードネームは？",
-    image: "/image/quiz/113.jpeg",
+    image: "/image/quiz/113.jpg",
     options: ["炎帝", "火拳", "青龍", "影帝"],
     correctAnswerIndex: 0,
     category: "1",
@@ -1003,7 +1003,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 114,
     question: "ウソップの技『火薬星』の初登場シーンはどの敵との戦い？",
-    image: "/image/quiz/114.jpeg",
+    image: "/image/quiz/114.jpg",
     options: ["キャプテン・クロ", "アーロン", "ドン・クリーク", "バギー"],
     correctAnswerIndex: 0,
     category: "1",
@@ -1013,7 +1013,7 @@ export const quizData: QuizQuestion[] = [
     id: 115,
     question:
       "ルフィがインペルダウン編で助けた囚人のうち、元クロコダイルの部下は誰？",
-    image: "/image/quiz/115.jpeg",
+    image: "/image/quiz/115.jpg",
     options: ["ミスター3", "バギー", "ジンベエ", "ボン・クレー"],
     correctAnswerIndex: 0,
     category: "1",
@@ -1022,7 +1022,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 116,
     question: "トラファルガー・ローが率いる海賊団の名前は？",
-    image: "/image/quiz/116.jpeg",
+    image: "/image/quiz/116.jpg",
     options: [
       "ハートの海賊団",
       "スペードの海賊団",
@@ -1037,7 +1037,7 @@ export const quizData: QuizQuestion[] = [
     id: 117,
     question:
       "白ひげ海賊団の二番隊隊長エースが、幼少期に偽名で名乗っていた名前は？",
-    image: "/image/quiz/117.jpeg",
+    image: "/image/quiz/117.jpg",
     options: [
       "ポートガス・D・エース",
       "ゴール・D・エース",
@@ -1052,7 +1052,7 @@ export const quizData: QuizQuestion[] = [
     id: 118,
     question:
       "ウォーターセブン編でアイスバーグが狙撃された際に疑われた人物は？",
-    image: "/image/quiz/118.jpeg",
+    image: "/image/quiz/118.jpg",
     options: ["フランキー", "ロビン", "サンジ", "ウソップ"],
     correctAnswerIndex: 1,
     category: "1",
@@ -1061,7 +1061,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 119,
     question: "『空島編』でエネルが「神の裁き」として降らせた雷の名前は？",
-    image: "/image/quiz/119.jpeg",
+    image: "/image/quiz/119.jpg",
     options: ["エル・トール", "雷迎", "万雷", "雷神"],
     correctAnswerIndex: 0,
     category: "1",
@@ -1070,7 +1070,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 120,
     question: "ゾロが幼少期に所属していた道場の名前は？",
-    image: "/image/quiz/120.jpeg",
+    image: "/image/quiz/120.jpg",
     options: ["霜月村の道場", "志村道場", "霧隠道場", "鬼崎道場"],
     correctAnswerIndex: 0,
     category: "1",
@@ -1079,7 +1079,7 @@ export const quizData: QuizQuestion[] = [
   {
     id: 121,
     question: "ルフィが空島でエネルに勝利した時に使った技の名前は？",
-    image: "/image/quiz/121.jpeg",
+    image: "/image/quiz/121.jpg",
     options: [
       "ゴムゴムの黄金ライフル",
       "ゴムゴムの黄金バズーカ",
