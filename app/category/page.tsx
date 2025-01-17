@@ -16,7 +16,7 @@ const CategorySelection: React.FC = () => {
 
   const handleDifficultySelect = (difficulty: string) => {
     setSelectedDifficulty(difficulty);
-    setIsDialogOpen(true); // ダイアログを開く
+    setIsDialogOpen(true);
   };
 
   const handleStartQuiz = () => {
@@ -56,8 +56,8 @@ const CategorySelection: React.FC = () => {
             <DropdownList
               label="問題数"
               options={["全て", 10, 15, 20, 25, 30]}
-              value={selectedQuestionCount.toString()} // 数値を文字列に変換
-              onChange={(value) => setSelectedQuestionCount(Number(value))} // 値を数値に変換
+              value={selectedQuestionCount.toString()}
+              onChange={(value) => setSelectedQuestionCount(Number(value))}
             />
           </div>
         </div>
@@ -101,7 +101,7 @@ const CategorySelection: React.FC = () => {
       {isDialogOpen && (
         <ConfirmationDialog
           selectedArc={selectedArc}
-          selectedQuestionCount={selectedQuestionCount} // 数値として渡す
+          selectedQuestionCount={selectedQuestionCount}
           selectedDifficulty={selectedDifficulty}
           onClose={handleCloseDialog}
           onStart={handleStartQuiz}
