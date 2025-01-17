@@ -17,9 +17,9 @@
 
 .top-bg1 {
   background-image: url("/image/top/top.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
@@ -28,138 +28,138 @@
 
 .cateBg01 {
   background-image: url("/image/cate/bg-02.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 .cateBg02 {
   background-image: url("/image/cate/bg-03.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 .cateBg03 {
   background-image: url("/image/cate/bg-04.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 .cateBg04 {
   background-image: url("/image/cate/bg-05.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 .cateBg05 {
   background-image: url("/image/cate/bg-06.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 
 .cateBg06 {
   background-image: url("/image/cate/bg-07.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 .cateBg07 {
   background-image: url("/image/cate/bg-08.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 .cateBg08 {
   background-image: url("/image/cate/bg-09.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 .cateBg09 {
   background-image: url("/image/cate/bg-10.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 .cateBg10 {
   background-image: url("/image/cate/bg-11.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 .cateBg12 {
   background-image: url("/image/cate/12.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 .cateBg13 {
   background-image: url("/image/cate/13.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 .cateBg14 {
   background-image: url("/image/cate/14.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 .cateBg15 {
   background-image: url("/image/cate/15.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 .cateBg16 {
   background-image: url("/image/cate/16.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 .cateBg17 {
   background-image: url("/image/cate/17.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }
 .cateBg18 {
   background-image: url("/image/cate/18.jpg");
-  background-size: cover; /* 画像を全体にフィットさせる */
-  background-repeat: no-repeat; /* 画像を繰り返さない */
-  background-position: center; /* 中央に配置 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100vh;
 }

@@ -2,7 +2,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { useRouter } from "next/navigation"; // useRouter を使用
+import { useRouter } from "next/navigation";
 import { quizData, QuizQuestion } from "../data/quizData";
 import { shuffleArray } from "../utils/arrayUtils";
 
@@ -26,7 +26,7 @@ const QuizApp: React.FC = () => {
   useEffect(() => {
     // クエリパラメータから難易度を取得
     const searchParams = new URLSearchParams(window.location.search);
-    const selectedLevel = searchParams.get("difficulty") || "easy"; // デフォルト値を設定
+    const selectedLevel = searchParams.get("difficulty") || "easy";
     const filtered = quizData.filter(
       (question) => question.level === selectedLevel
     );
@@ -80,7 +80,7 @@ const QuizApp: React.FC = () => {
   };
 
   const goToHome = () => {
-    router.push("/category"); // ホームページ ("/category") に遷移
+    router.push("/category");
   };
 
   return (
