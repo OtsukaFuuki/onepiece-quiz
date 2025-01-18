@@ -43,19 +43,19 @@ export const quizData: QuizQuestion[] = [
     correctAnswerIndex: 0,
     level: "easy",
   },
-  {
-    id: 13,
-    question: "ゴーイングメリー号を修理してくれたのは誰？",
-    image: "/image/quiz/5.jpg",
-    options: [
-      "ウソップの父ヤソップ",
-      "ガレーラカンパニー",
-      "フランキー一家",
-      "白ひげ海賊団",
-    ],
-    correctAnswerIndex: 1,
-    level: "normal",
-  },
+  // {
+  //   id: 13,
+  //   question: "ゴーイングメリー号を修理してくれたのは誰？",
+  //   image: "/image/quiz/5.jpg",
+  //   options: [
+  //     "ウソップの父ヤソップ",
+  //     "ガレーラカンパニー",
+  //     "フランキー一家",
+  //     "白ひげ海賊団",
+  //   ],
+  //   correctAnswerIndex: 1,
+  //   level: "normal",
+  // },
   {
     id: 14,
     question: "四皇の1人であり、赤髪海賊団の船長は誰？",
