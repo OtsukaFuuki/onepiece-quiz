@@ -7,7 +7,7 @@ const Home: React.FC = () => {
   const router = useRouter();
 
   const handleStartQuiz = () => {
-    // クイズに遷移
+    // クイズのカテゴリページへ遷移
     router.push("/category");
   };
 
