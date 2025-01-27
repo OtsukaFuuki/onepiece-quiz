@@ -87,7 +87,6 @@ const CategorySelection: React.FC = () => {
         </div>
       </div>
 
-      {/* トップへ戻るボタン */}
       <div className="mt-4">
         <button
           onClick={goToHome}
