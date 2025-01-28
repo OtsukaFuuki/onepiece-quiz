@@ -42,7 +42,6 @@ const CategorySelection: React.FC = () => {
 
       <div className="w-full max-w-md space-y-4">
         <div className="flex items-center justify-between gap-5">
-          {/* カテゴリ選択 */}
           <div className="flex-1">
             <DropdownList
               label="ワンピースの〜編"
