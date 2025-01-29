@@ -51,7 +51,6 @@ const CategorySelection: React.FC = () => {
             />
           </div>
           <div className="flex-1">
-            {/* 問題数選択 */}
             <DropdownList
               label="問題数"
               options={["全て", 10, 15, 20, 25, 30]}
@@ -60,8 +59,6 @@ const CategorySelection: React.FC = () => {
             />
           </div>
         </div>
-
-        {/* 難易度選択 */}
         <div className="space-y-2">
           <div className="flex flex-col justify-between space-y-2">
             <button
