@@ -16,7 +16,7 @@ const CategorySelection: React.FC = () => {
 
   const handleDifficultySelect = (difficulty: string) => {
     setSelectedDifficulty(difficulty);
-    setIsDialogOpen(true);
+    setIsDialogOpen(true); // ダイアログを開く
   };
 
   const handleStartQuiz = () => {
@@ -42,6 +42,7 @@ const CategorySelection: React.FC = () => {
 
       <div className="w-full max-w-md space-y-4">
         <div className="flex items-center justify-between gap-5">
+          {/* カテゴリ選択 */}
           <div className="flex-1">
             <DropdownList
               label="ワンピースの〜編"
@@ -51,14 +52,17 @@ const CategorySelection: React.FC = () => {
             />
           </div>
           <div className="flex-1">
+            {/* 問題数選択 */}
             <DropdownList
               label="問題数"
               options={["全て", 10, 15, 20, 25, 30]}
-              value={selectedQuestionCount.toString()}
-              onChange={(value) => setSelectedQuestionCount(Number(value))}
+              value={selectedQuestionCount.toString()} // 数値を文字列に変換
+              onChange={(value) => setSelectedQuestionCount(Number(value))} // 値を数値に変換
             />
           </div>
         </div>
+
+        {/* 難易度選択 */}
         <div className="space-y-2">
           <div className="flex flex-col justify-between space-y-2">
             <button
@@ -83,6 +87,7 @@ const CategorySelection: React.FC = () => {
         </div>
       </div>
 
+      {/* トップへ戻るボタン */}
       <div className="mt-4">
         <button
           onClick={goToHome}
