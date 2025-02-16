@@ -16,7 +16,9 @@
 }
 
 .top-bg1 {
-  background-image: url("/image/top/top.jpg");
+  /* background-image: url("/image/top/top.jpg"); */
+
+  background-image: url("/image/top/top-18.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
